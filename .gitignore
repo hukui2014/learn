@@ -1,0 +1,46 @@
+# maven ignore
+target/
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+#jrebel ignore
+rebel.xml
+.rebel.xml.bak
+
+# logs #
+logs
+data
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+*.java~
+*.properties~
+*.xml~
+
+# system ignore
+.DS_Store
+Thumbs.db
+Servers
+.metadata
+upload
+/.pydevproject
+
+/cts-gateway/src/main/resources/static/
