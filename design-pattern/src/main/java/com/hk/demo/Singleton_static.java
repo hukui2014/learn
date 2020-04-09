@@ -5,6 +5,9 @@ package com.hk.demo;
  */
 public final class Singleton_static {
 
+    /**
+     * 私有构造函数
+     */
     private Singleton_static(){
 
     }
@@ -25,6 +28,9 @@ public final class Singleton_static {
         private static final Singleton_static INSTANCE = new Singleton_static();
     }
 
+    /**
+     * 其他方法
+     */
     public void anyMethod(){
 
     }
